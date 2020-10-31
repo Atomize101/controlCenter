@@ -7,7 +7,7 @@ const Header = () => {
 				Accordion
 			</a>
 			<a href="/list" className="item">
-				Search
+				Wiki Search
 			</a>
 			<a href="/dropdown" className="item">
 				Dropdown
