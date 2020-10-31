@@ -15,6 +15,12 @@ const Header = () => {
 			<a href="/translate" className="item">
 				Translate
 			</a>
+			<a href="/translate" className="item">
+				Timer
+			</a>
+			<a href="/translate" className="item">
+				Horoscope
+			</a>
 		</div>
 	);
 };

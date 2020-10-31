@@ -1,6 +1,6 @@
-import './App.css';
 import Header from './components/Header';
 import Route from './components/Route';
+import Accordion from './components/Accordion';
 
 export default () => {
 	//const [selected, setSelected] = useState(options[0]);
@@ -8,10 +8,9 @@ export default () => {
 	return (
 		<div>
 			<Header />
-			<Route path="/"></Route>
-			<Route path="/list"></Route>
-			<Route path="/dropdown"></Route>
-			<Route path="/translate"></Route>
+			<Route path="/">
+				<Accordion />
+			</Route>
 		</div>
 	);
 };
