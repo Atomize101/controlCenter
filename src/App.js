@@ -1,7 +1,17 @@
 import './App.css';
+import Header from './components/Header';
+import Route from './components/Route';
 
-function App() {
-	return <div className="App">Testing</div>;
-}
+export default () => {
+	//const [selected, setSelected] = useState(options[0]);
 
-export default App;
+	return (
+		<div>
+			<Header />
+			<Route path="/"></Route>
+			<Route path="/list"></Route>
+			<Route path="/dropdown"></Route>
+			<Route path="/translate"></Route>
+		</div>
+	);
+};
